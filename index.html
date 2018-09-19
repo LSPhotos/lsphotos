@@ -13,7 +13,7 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" type="text/css" href="keyframes.css">
   <link rel='icon' href='images/lslogo.png' type='icon/png'>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
   <script src="_js/jquery.smoothState.min.js" type="text/javascript"></script>
   <script src="rotate.js" type="text/javascript"></script>
@@ -25,12 +25,8 @@
 
 <body>
 
-  <div class="construction">
-    <h1>UNDER CONSTRUCTION<BR />CHECK BACK SOON</h1><h6>OR CHECK OUT THE MOBILE VERSION!</h6>
-  </div>
-
-
-  <nav>
+  <!-- mobile nav -->
+  <nav class="desktop-hide">
     <div class="top-nav">
       <div class="nav-logo-div">
         <img class="nav-logo" src="images/lslogo.png" />
@@ -43,6 +39,21 @@
     </div>
     <div class="nav-expand">
       <div class="nav-expand-text">
+        <a href=index.html><h1 class="nav-text">Welcome</h1></a>
+        <a href=portfolio.html><h1 class="nav-text">Portfolio</h1></a>
+        <a href=about.html><h1 class="nav-text">About</h1></a>
+        <a href=contact.html><h1 class="nav-text">Contact</h1></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- desktop nav -->
+  <nav class="mobile-hide">
+    <div class="top-nav">
+      <div class="nav-logo-div">
+        <img class="nav-logo" src="images/lslogo.png" />
+      </div>
+      <div class="nav-links">
         <a href=index.html><h1 class="nav-text">Welcome</h1></a>
         <a href=portfolio.html><h1 class="nav-text">Portfolio</h1></a>
         <a href=about.html><h1 class="nav-text">About</h1></a>
@@ -78,7 +89,7 @@
       <h3>Lizzie Stolow Photography</h3>
     </div>
     <div class="right">
-      <a href="" <p>
+      <a href=""></a> <p>
         <i class="fab fa-3x fa-instagram"></i>
       </p>
     </div>

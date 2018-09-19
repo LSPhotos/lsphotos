@@ -25,16 +25,12 @@
 
 <body>
 
-  <div class="construction">
-    <h1>UNDER CONSTRUCTION<BR />CHECK BACK SOON</h1>
-    <h6>OR CHECK OUT THE MOBILE VERSION!</h6>
-  </div>
+
+  <a name="personal" style="display:none"></a>
 
 
-  <a name="personal"></a>
-
-
-  <nav>
+  <!-- mobile nav -->
+  <nav class="desktop-hide">
     <div class="top-nav">
       <div class="nav-logo-div">
         <img class="nav-logo" src="images/lslogo.png" />
@@ -55,19 +51,30 @@
     </div>
   </nav>
 
+  <!-- desktop nav -->
+  <nav class="mobile-hide">
+    <div class="top-nav">
+      <div class="nav-logo-div">
+        <img class="nav-logo" src="images/lslogo.png" />
+      </div>
+      <div class="nav-links">
+        <a href=index.html><h1 class="nav-text">Welcome</h1></a>
+        <a href=portfolio.html><h1 class="nav-text">Portfolio</h1></a>
+        <a href=about.html><h1 class="nav-text">About</h1></a>
+        <a href=contact.html><h1 class="nav-text">Contact</h1></a>
+      </div>
+    </div>
+  </nav>
 
   <main>
     <div class="portfolio-goto">
-      <h1>Portfolio</h1>
-      <br />
-      <h2 class="portfolio-link"><a href=#personal><span style="text-decoration: underline"> Personal</span></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=#union>UWM Union</a></h2>
     </div>
-    <div class="image-container">
+    <div class="image-container desktop-hide">
       <img class="portfolio-image" src="images/portfolio/abe.jpg" />
       <img class="portfolio-image" src="images/portfolio/arch.jpg" />
       <img class="portfolio-image" src="images/portfolio/cacti.jpg" />
       <img class="portfolio-image" src="images/portfolio/cacti2.jpg" />
-            <img class="portfolio-image" src="images/portfolio/dog.jpg" />
+      <img class="portfolio-image" src="images/portfolio/dog.jpg" />
       <img class="portfolio-image" src="images/portfolio/dog1.jpg" />
       <img class="portfolio-image" src="images/portfolio/dog3.jpg" />
       <img class="portfolio-image" src="images/portfolio/monument.jpg" />
@@ -79,10 +86,32 @@
       <img class="portfolio-image" src="images/portfolio/tv.jpg" />
       <img class="portfolio-image" src="images/portfolio/waterstreet.jpg" />
     </div>
-    <h2 class="portfolio-link"><a href=#personal>Personal</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=#union><span style="text-decoration: underline">UWM Union</span></a></h2>
 
     <div class="image-container">
 
+    </div>
+    <div class=image-container>
+      <div class="row">
+        <div class="column">
+          <img src="/images/portfolio/abe.jpg">
+          <img src="/images/portfolio/arch.jpg">
+          <img src="/images/portfolio/cacti.jpg">
+          <img src="/images/portfolio/cacti2.jpg">
+          <img src="/images/portfolio/dog.jpg">
+          <img src="/images/portfolio/dog1.jpg">
+          <img src="/images/portfolio/dog3.jpg">
+          <img src="/images/portfolio/statue.jpg">
+          <img src="/images/portfolio/waterstreet.jpg">
+        </div>
+        <div class="column">
+          <img src="/images/portfolio/monument.jpg">
+          <img src="/images/portfolio/person.jpg">
+          <img src="/images/portfolio/person2.jpg">
+          <img src="/images/portfolio/plant.jpg">
+          <img src="/images/portfolio/plant2.jpg">
+          <img src="/images/portfolio/tv.jpg">
+        </div>
+      </div>
     </div>
 
   </main>
